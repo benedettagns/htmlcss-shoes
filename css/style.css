@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.shoes {
+    position: relative;
+    height: 100vh;
+}
+
+#shoe1 {
+    background-color: red;
+}
+
+#shoe2 {
+    background-color: green;
+}
+
+#shoe3 {
+    background-color: yellow;
+}
