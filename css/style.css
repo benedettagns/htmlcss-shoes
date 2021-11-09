@@ -8,14 +8,22 @@ body {
     font-family: 'Kanit', sans-serif;
 }
 
-.container {
-    margin: 0 auto;
+.shoes {
+    height: 100vh;
+    position: relative;
 }
 
-.shoes {
-    position: relative;
-    height: 100vh;
+.box {
+    position: absolute;
+    left: 20%;
 }
+
+.box h1 {
+    text-align: center;
+    font-size: 50px;
+    color: yellow;
+}
+
 
 #shoe1 {
     background-color: red;
@@ -26,5 +34,37 @@ body {
 }
 
 #shoe3 {
-    background-color: yellow;
+    background-color: rgb(182, 182, 5);
+}
+
+/*---------------------------------------*/
+.links {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    z-index: 1;
+}
+
+.shoes-link {
+    display: inline-block;
+    position: relative;
+}
+
+.link  {
+    background-color: rgb(230, 230, 230);
+    border: 1px rgb(121, 121, 121) solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
 }
